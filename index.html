@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <main class="main">
+        <h1>Registration Form </h1>
+        <form action="Register" method="post">
+            <div>
+                <label for="Username">User Name</label>
+                <input type="text" name="user" id="Username" required>
+                <i class='bx bxs-user'></i>
+            
+                <div>
+
+                    <label for="email">E.mail address</label>
+                    <input type="email" name="usermail" id="email" required>
+                    <i class='bx bxl-gmail'></i>
+                </div>
+                <div>
+                    <label for="mobile">Mobile No</label>
+                    <input type="number" name="number" id="mobile no" maxlength="10" placeholder="+(91)" required>
+                    <i class='bx bx-phone'></i>
+                </div>
+                <div>
+                    <label for="birthyear">D.O.B</label>
+                    <input type="number" name="birthyear" id="birthyear" placeholder="DD/MM/YYYY"
+                </div>
+                <div>
+                    <label for="Gender">Gender :</label>
+                    <input type="radio" name="gender" id="gender">Male
+                    <input type="radio" name="gender" id="gender">Female
+                    <input type="radio" name="gender" id="gender">Other
+                </div>
+                <div>
+                    <Label for="work">Work Status :</Label>
+                    <input type="checkbox" name="work" id="work">Experienced
+                    <input type="checkbox" name="work" id="work">Fresher
+                </div>
+                <div class="place">
+                    <label for="City">Current City</label>
+                    <select name="select" id="place">
+                        <option value="Chennai">Chennai</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Noida">Noida</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        
+                        
+    </select>
+     </div>
+            
+    <button class="button">Register</button>   
+        
+                
+
+    </form>
+</main>
+     </body>
+</html>
