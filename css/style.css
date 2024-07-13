@@ -6,7 +6,7 @@ body{
     padding: 0;
     justify-content: center;
     height: 100vh;
-    background:linear-gradient(pink rgb(119, 157, 228));
+    background:url(https://media.istockphoto.com/id/1029340324/photo/pink-red-wall-texture.jpg?s=1024x1024&w=is&k=20&c=aA8C0AVVVNERHKkvM1lfJR01X7xjvrMG7YhV9tqeHGc=)
 }
 .main{
     background-color: antiquewhite;
